@@ -1,0 +1,62 @@
+<style>
+    .button  {
+        font-size: 12px !important;
+    }
+    .buttons {
+        position: fixed;
+        bottom: 10px;  
+        width: 100%;  
+    }
+    .item-divider {
+        font-size: 20px;
+    }
+    .item-input {
+        margin: 0 0 0 0px !important;                
+    }
+    .input-label {
+        color: white;
+    }
+    .card {
+        color: white;
+        background-color: rgba(147, 112, 72, 0.4);
+    }
+</style>
+<ion-view>
+    <ion-content class="padding">
+        <div class="text-center">
+          <h1 style="font-size: 30px;">Products</h1>
+        </div>
+        <div class="card" style="">
+            <label class="item item-input">
+              <span class="input-label">Gloves</span>
+              <span>x 10</span>
+            </label>
+            <label class="item item-input">
+              <span class="input-label">UPAC 123</span>
+              <span>x 7</span>
+            </label>
+            <label class="item item-input">
+              <span class="input-label">Coffee</span>
+              <span>x 9</span>
+            </label>
+            <label class="item item-input">
+              <span class="input-label">Tea</span>
+              <span>x 5</span>
+            </label>
+        </div>
+    </ion-content>
+     <div class="form buttons">
+            <div class="row">
+                <div class="col">
+                     <button class="button icon-left ion-bag button-block button-positive"  ui-sref="main">
+                       <span>Add More Products</span>
+                     </button>
+                </div>  
+                <div class="col"> 
+                   <button class="button icon-left ion-ios7-cloud-upload-outline button-block button-positive">
+                      Submit Order
+                   </button>
+                </div>
+            </div>
+    </div>
+</ion-view>

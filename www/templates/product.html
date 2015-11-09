@@ -1,0 +1,61 @@
+<style>
+    .item-divider {
+        font-size: 20px;
+    }
+    .item-input {
+        margin: 0 0 0 0px !important;                
+    }
+    .input-label {
+        color: white;
+    }
+    .card {
+        color: white;
+        background-color: rgba(147, 112, 72, 0.4);
+    }
+    .button  {
+        font-size: 12px !important;
+    }
+</style>
+<ion-view>
+    <ion-content class="padding">
+        <div class="text-center">
+          <h1 style="font-size: 35px;">Trycare</h1>
+        </div>
+        <div class="card" style="">
+            <ion-item class="item-divider" style="color:white;">
+              Pola Sooth Gel
+            </ion-item>
+            <label class="item item-input">
+              <span class="input-label">Price</span>
+              <span>$10.20</span>
+            </label>
+            <label class="item item-input">
+              <span class="input-label">Quantity</span>
+              <span>10</span>
+            </label>
+            <label class="item item-input">
+              <span class="input-label">Description</span>
+            </label>
+            <label class="item item-input">
+              <textarea cloned-text-input rows="8" cols="10" style="border: solid 1px rgb(80, 50, 7);">
+                    Soothe is potassium nitrate and fluoride in agel, providing sustained release of 6%
+                    potassium nitrate and 0.1% fluoride. Relieving tooth sensitivity caused by chemical and thermal changes. Unlike other desensitisers, Soothe will not interfere with the whitening process. Apply before and after whitening procedure
+              </textarea>
+            </label>
+        </div>
+        <div class="form">
+            <div class="row">
+                <div class="col"> 
+                   <button class="button icon-left ion-arrow-left-a button-block button-positive" ui-sref="main">
+                      Go Back
+                   </button>
+                </div>
+                <div class="col">
+                     <button class="button icon-left ion-bag button-block button-positive" ui-sref="basket">
+                       Add to  Basket
+                     </button>
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
